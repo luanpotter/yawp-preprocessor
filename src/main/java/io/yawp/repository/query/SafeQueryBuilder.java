@@ -1,6 +1,5 @@
 package io.yawp.repository.query;
 
-
 import io.yawp.repository.IdRef;
 import io.yawp.repository.Repository;
 import io.yawp.repository.models.ObjectModel;
