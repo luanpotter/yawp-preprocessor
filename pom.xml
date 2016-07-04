@@ -49,5 +49,11 @@
       <version>4.12</version>
       <scope>test</scope>
     </dependency>
+    <dependency>
+      <groupId>io.yawp</groupId>
+      <artifactId>yawp-testing-core</artifactId>
+      <version>1.6.3</version>
+      <scope>test</scope>
+    </dependency>
   </dependencies>
 </project>
