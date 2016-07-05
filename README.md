@@ -1,6 +1,8 @@
+# yawp-preprocessor
+
 This is an annotation preprocessor that allows for a better and type-safer approach for queries.
 
-Instead of using unsafe and dangerous strings to represent field names, just add this dependency and enums will be generated for all your @Endpoint models with constants for each field.
+Instead of using unsafe and dangerous strings to represent field names, just add this dependency and enums will be generated for all your `@Endpoint` models with constants for each field.
 
 This will allow you to use a much better API:
 
