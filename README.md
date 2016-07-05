@@ -7,7 +7,7 @@ Instead of using unsafe and dangerous strings to represent field names, just add
 This will allow you to use a much better API:
 
 ```java
-    return query(Person.class).where(PersonFields.NAME, Op.EQ, "Luan").list();
+    List<Person> people = query(Person.class).where(PersonFields.NAME, Op.EQ, "Luan").list();
 ```
 
 The where method only accepts the enum for the specified class. How does it work? The query method is static to the new `SafeYawp` class, that replaces the old `Yawp` one.
